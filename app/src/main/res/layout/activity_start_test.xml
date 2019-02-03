@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.RegistrationActivity"
+        android:clickable="true">
+        <LinearLayout
+            android:layout_marginTop="57dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/main_layout"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded">
+
+            <TextView
+                android:id="@+id/studentname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Sharma"
+                android:textSize="19dp"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="6dp"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/subjectname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject: Operating System"
+                android:textSize="19dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/rrqid"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:text="RRQ ID: 1"
+                android:textColor="@android:color/white"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/totalquestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Questions: 4 "
+                android:textSize="19dp"
+                android:layout_gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="5dp"
+                android:textColor="@android:color/white"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/startbtn"
+            android:layout_marginTop="39dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded"
+            android:padding="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="21dp"
+            android:text="GO"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please press GO to commence"
+            android:textSize="16dp"
+            android:layout_centerInParent="true"
+            android:layout_above="@+id/startbtn"
+            />
+
+    </RelativeLayout>

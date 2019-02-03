@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2WL</string>
+    <string name="title_activity_registration">User Registration</string>
+    <string name="title_activity_otpverification">OTP Verification</string>
+    <string name="title_activity_user_set_pin">Set PIN</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_start_test">RRQ confirmation</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+</resources>
