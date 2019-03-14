@@ -1,4 +1,4 @@
-package com.mobile.quiz.utility;
+package com.mobile.rrqquiz.utility;
 
 import android.app.Activity;
 import android.graphics.Rect;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 
-import com.mobile.quiz.appInterface.OnKeyboardVisibilityListener;
+import com.mobile.rrqquiz.appInterface.OnKeyboardVisibilityListener;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

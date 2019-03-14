@@ -1,4 +1,4 @@
-package com.mobile.quiz.activity;
+package com.mobile.rrqquiz.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,12 +8,12 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mobile.quiz.R;
-import com.mobile.quiz.model.RRQDetailModel;
+import com.mobile.rrqquiz.R;
+import com.mobile.rrqquiz.model.RRQDetailModel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.mobile.quiz.utility.ConstantUtil.RRQ_Data;
+import static com.mobile.rrqquiz.utility.ConstantUtil.RRQ_Data;
 
 public class StartTestActivity extends AppCompatActivity {
 

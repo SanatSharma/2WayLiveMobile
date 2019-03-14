@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mobile.quiz">
+    package="com.mobile.rrqquiz">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".activity.MyApplication"
+        android:name="com.mobile.rrqquiz.activity.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,31 +13,31 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.QuizActivity"
+            android:name="com.mobile.rrqquiz.activity.QuizActivity"
             android:label="@string/title_activity_quiz"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".activity.StartTestActivity"
+            android:name="com.mobile.rrqquiz.activity.StartTestActivity"
             android:label="@string/title_activity_start_test" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name="com.mobile.rrqquiz.activity.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".activity.UserSetPinActivity"
+            android:name="com.mobile.rrqquiz.activity.UserSetPinActivity"
             android:label="@string/title_activity_user_set_pin"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".activity.OTPVerificationActivity"
+            android:name="com.mobile.rrqquiz.activity.OTPVerificationActivity"
             android:label="@string/title_activity_otpverification"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".activity.RegistrationActivity"
+            android:name="com.mobile.rrqquiz.activity.RegistrationActivity"
             android:label="@string/title_activity_registration"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.mobile.rrqquiz.activity.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

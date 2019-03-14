@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.mobile.quiz"
+        applicationId "com.mobile.rrqquiz"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1

@@ -1,4 +1,4 @@
-package com.mobile.quiz;
+package com.mobile.rrqquiz;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;

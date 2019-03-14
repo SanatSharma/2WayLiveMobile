@@ -1,4 +1,4 @@
-package com.mobile.quiz.api;
+package com.mobile.rrqquiz.api;
 
 import android.app.Activity;
 
@@ -7,8 +7,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
-import com.mobile.quiz.activity.MyApplication;
-import com.mobile.quiz.appInterface.APIResponseInterface;
+import com.mobile.rrqquiz.activity.MyApplication;
+import com.mobile.rrqquiz.appInterface.APIResponseInterface;
 
 import org.json.JSONObject;
 

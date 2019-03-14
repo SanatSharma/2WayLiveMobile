@@ -1,4 +1,4 @@
-package com.mobile.quiz.activity;
+package com.mobile.rrqquiz.activity;
 
 import android.app.Application;
 

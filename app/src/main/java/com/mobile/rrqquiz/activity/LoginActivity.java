@@ -1,4 +1,4 @@
-package com.mobile.quiz.activity;
+package com.mobile.rrqquiz.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,23 +8,23 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mobile.quiz.R;
-import com.mobile.quiz.api.APIRequestResponse;
-import com.mobile.quiz.appInterface.APIResponseInterface;
-import com.mobile.quiz.appInterface.OnKeyboardVisibilityListener;
-import com.mobile.quiz.model.RRQDetailModel;
-import com.mobile.quiz.utility.SharedPrefManager;
-import com.mobile.quiz.utility.Utility;
+import com.mobile.rrqquiz.R;
+import com.mobile.rrqquiz.api.APIRequestResponse;
+import com.mobile.rrqquiz.appInterface.APIResponseInterface;
+import com.mobile.rrqquiz.appInterface.OnKeyboardVisibilityListener;
+import com.mobile.rrqquiz.model.RRQDetailModel;
+import com.mobile.rrqquiz.utility.SharedPrefManager;
+import com.mobile.rrqquiz.utility.Utility;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.mobile.quiz.utility.ConstantUtil.RRQ_Data;
-import static com.mobile.quiz.utility.SharedPrefManager.KEY_REGISTRATION_ID;
-import static com.mobile.quiz.utility.SharedPrefManager.KEY_STUDENT_NAME;
-import static com.mobile.quiz.utility.URLs.URL_GETRRQDETAIL;
+import static com.mobile.rrqquiz.utility.ConstantUtil.RRQ_Data;
+import static com.mobile.rrqquiz.utility.SharedPrefManager.KEY_REGISTRATION_ID;
+import static com.mobile.rrqquiz.utility.SharedPrefManager.KEY_STUDENT_NAME;
+import static com.mobile.rrqquiz.utility.URLs.URL_GETRRQDETAIL;
 
 public class LoginActivity extends AppCompatActivity implements APIResponseInterface, OnKeyboardVisibilityListener {
 

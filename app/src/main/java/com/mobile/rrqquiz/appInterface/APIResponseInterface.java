@@ -1,4 +1,4 @@
-package com.mobile.quiz.appInterface;
+package com.mobile.rrqquiz.appInterface;
 
 public interface APIResponseInterface {
 

@@ -1,15 +1,15 @@
-package com.mobile.quiz.activity;
+package com.mobile.rrqquiz.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.mobile.quiz.R;
-import com.mobile.quiz.utility.SharedPrefManager;
+import com.mobile.rrqquiz.R;
+import com.mobile.rrqquiz.utility.SharedPrefManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.mobile.quiz.utility.SharedPrefManager.KEY_PIN;
+import static com.mobile.rrqquiz.utility.SharedPrefManager.KEY_PIN;
 
 public class SplashActivity extends AppCompatActivity {
 

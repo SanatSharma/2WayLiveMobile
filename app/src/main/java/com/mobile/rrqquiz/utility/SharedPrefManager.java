@@ -1,4 +1,4 @@
-package com.mobile.quiz.utility;
+package com.mobile.rrqquiz.utility;
 
 import android.content.Context;
 import android.content.SharedPreferences;

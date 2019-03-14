@@ -1,4 +1,4 @@
-package com.mobile.quiz.model;
+package com.mobile.rrqquiz.model;
 
 import java.io.Serializable;
 

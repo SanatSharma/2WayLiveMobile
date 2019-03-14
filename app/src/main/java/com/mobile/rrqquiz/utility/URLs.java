@@ -1,4 +1,4 @@
-package com.mobile.quiz.utility;
+package com.mobile.rrqquiz.utility;
 
 public class URLs {
     private static final String ROOT_URL = "http://twowaylive.us-east-2.elasticbeanstalk.com";

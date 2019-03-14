@@ -1,4 +1,4 @@
-package com.mobile.quiz.activity;
+package com.mobile.rrqquiz.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,15 +8,15 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mobile.quiz.R;
-import com.mobile.quiz.api.APIRequestResponse;
-import com.mobile.quiz.appInterface.APIResponseInterface;
-import com.mobile.quiz.model.RRQDetailModel;
+import com.mobile.rrqquiz.R;
+import com.mobile.rrqquiz.api.APIRequestResponse;
+import com.mobile.rrqquiz.appInterface.APIResponseInterface;
+import com.mobile.rrqquiz.model.RRQDetailModel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.mobile.quiz.utility.ConstantUtil.RRQ_Data;
-import static com.mobile.quiz.utility.URLs.URL_SENDRRQDETAIL;
+import static com.mobile.rrqquiz.utility.ConstantUtil.RRQ_Data;
+import static com.mobile.rrqquiz.utility.URLs.URL_SENDRRQDETAIL;
 
 public class QuizActivity extends AppCompatActivity implements APIResponseInterface, View.OnClickListener {
 

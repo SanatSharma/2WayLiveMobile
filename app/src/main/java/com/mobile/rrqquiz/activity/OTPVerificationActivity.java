@@ -1,4 +1,4 @@
-package com.mobile.quiz.activity;
+package com.mobile.rrqquiz.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,15 +7,15 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.mobile.quiz.R;
-import com.mobile.quiz.api.APIRequestResponse;
-import com.mobile.quiz.appInterface.APIResponseInterface;
+import com.mobile.rrqquiz.R;
+import com.mobile.rrqquiz.api.APIRequestResponse;
+import com.mobile.rrqquiz.appInterface.APIResponseInterface;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static com.mobile.quiz.utility.ConstantUtil.Mobile_number;
-import static com.mobile.quiz.utility.ConstantUtil.Registration_number;
-import static com.mobile.quiz.utility.URLs.URL_CONFORMOTP;
+import static com.mobile.rrqquiz.utility.ConstantUtil.Mobile_number;
+import static com.mobile.rrqquiz.utility.ConstantUtil.Registration_number;
+import static com.mobile.rrqquiz.utility.URLs.URL_CONFORMOTP;
 
 public class OTPVerificationActivity extends AppCompatActivity implements APIResponseInterface {
 
